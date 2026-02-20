@@ -4,3 +4,18 @@ Monocular Depth Estimation (MDE) is a fundamental ill-posed problem in computer 
 stability where standard Deep ResNet diverge. 
 
 https://www.researchgate.net/publication/400591323_Manifold-Constrained_Hyper-Connections_for_ResNet-UNet_Depth_Estimation
+
+# 开始训练 (20 Epochs)...
+正则化策略:
+  - 数据增强: ✓
+  - Dropout (0.1): ✓
+  - Early Stopping: ✓
+  - 梯度裁剪: ✓ (max_norm=1.0)
+  - Weight Decay: 1e-4
+  - 验证集比例: 20.0%
+Epoch 20 Summary:
+  Train Loss: 0.1619
+  Val Loss:   0.1386
+  Metrics:    a1=0.904, a2=0.986, RMSE=0.438
+  LR:         1.00e-07
+<img width="3000" height="1000" alt="image" src="https://github.com/user-attachments/assets/84b34a76-b65f-4e04-bbb0-6f9f35f49b06" />
