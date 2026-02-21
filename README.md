@@ -5,7 +5,7 @@ stability where standard Deep ResNet diverge.
 
 https://www.researchgate.net/publication/400591323_Manifold-Constrained_Hyper-Connections_for_ResNet-UNet_Depth_Estimation
 
-# 开始训练 (20 Epochs)...
+# 训练 
 正则化策略:
   - 数据增强: ✓
   - Dropout (0.1): ✓
@@ -19,3 +19,9 @@ Epoch 20 Summary:
   Metrics:    a1=0.904, a2=0.986, RMSE=0.438
   LR:         1.00e-07
 <img width="3000" height="1000" alt="image" src="https://github.com/user-attachments/assets/84b34a76-b65f-4e04-bbb0-6f9f35f49b06" />
+Epoch 50 Summary:
+  Train Loss: 0.1235
+  Val Loss:   0.1199
+  Metrics:    a1=0.930, a2=0.990, RMSE=0.386
+  LR:         1.00e-07
+<img width="1218" height="322" alt="image" src="https://github.com/user-attachments/assets/fbbc6f67-b910-4db3-a20a-844c54e860f8" />
