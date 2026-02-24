@@ -27,3 +27,7 @@ Epoch 50 Summary:
   Metrics:    a1=0.930, a2=0.990, RMSE=0.386
   LR:         1.00e-07
 <img width="1218" height="322" alt="image" src="https://github.com/user-attachments/assets/fbbc6f67-b910-4db3-a20a-844c54e860f8" />
+
+Kitti Dataset
+Ep  100 | Train=0.0949 Val=0.0943 | a1=0.971 RMSE=2.32m AbsRel=0.033 | LR=2.0e-07
+<img width="4180" height="886" alt="image" src="https://github.com/user-attachments/assets/17cea6f4-9df4-47a9-a032-e6082399ce42" />
